@@ -721,7 +721,7 @@
 			baseConfigurationReference = 450C1E9816549DD9337C08D6 /* Pods-RoxChatKeyboard_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 574GE9X9L7;
+				DEVELOPMENT_TEAM = NHV62264UD;
 				INFOPLIST_FILE = RoxChatKeyboard/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -745,7 +745,7 @@
 			baseConfigurationReference = 15747D0F587FEA5720086E9D /* Pods-RoxChatKeyboard_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 574GE9X9L7;
+				DEVELOPMENT_TEAM = NHV62264UD;
 				INFOPLIST_FILE = RoxChatKeyboard/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
