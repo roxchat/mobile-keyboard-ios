@@ -1,0 +1,15 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'RoxChatKeyboard_Example' do
+  pod 'RoxChatKeyboard', :path => '../'
+  
+  target 'RoxChatKeyboard_UNIT_Tests' do
+    inherit! :search_paths
+  end
+  
+  target 'RoxChatKeyboard_UI_Tests' do
+    inherit! :complete
+  end
+end
