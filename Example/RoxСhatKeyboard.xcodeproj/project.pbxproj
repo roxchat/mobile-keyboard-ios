@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17D3966DBD316170E1B553AE /* Pods_RoxChatKeyboard_Example_RoxChatKeyboard_UI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B36D77B5D7FD046597EC4D /* Pods_RoxChatKeyboard_Example_RoxChatKeyboard_UI_Tests.framework */; };
+		2B5A6C410DEAFDE38169ED43 /* Pods_RoxChatKeyboard_Example_RoxChatKeyboard_UI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 383DC92BC109DABAF0C6A604 /* Pods_RoxChatKeyboard_Example_RoxChatKeyboard_UI_Tests.framework */; };
+		458DDC51855918856E866D27 /* Pods_RoxChatKeyboard_UNIT_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D43594279750BA55C32345B3 /* Pods_RoxChatKeyboard_UNIT_Tests.framework */; };
 		90D5FE1D2B0A91A700A14597 /* NumericConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D5FE042B0A91A700A14597 /* NumericConstants.swift */; };
 		90D5FE1E2B0A91A700A14597 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90D5FE062B0A91A700A14597 /* LaunchScreen.xib */; };
 		90D5FE1F2B0A91A700A14597 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D5FE082B0A91A700A14597 /* Images.xcassets */; };
@@ -18,8 +19,7 @@
 		90D5FE2D2B0A9F6100A14597 /* NumericConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D5FE042B0A91A700A14597 /* NumericConstants.swift */; };
 		90D5FE302B0AA1F700A14597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D5FE092B0A91A700A14597 /* AppDelegate.swift */; };
 		90D5FE312B0AA20300A14597 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D5FE0B2B0A91A700A14597 /* ChatViewController.swift */; };
-		9D1882D8D1E087F4DC3F7D60 /* Pods_RoxChatKeyboard_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6AAC532BA37F5D70A634303 /* Pods_RoxChatKeyboard_Example.framework */; };
-		C44F39F790E1A65A33957123 /* Pods_RoxChatKeyboard_UNIT_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F55B531CE6DFFAD45C53AB2 /* Pods_RoxChatKeyboard_UNIT_Tests.framework */; };
+		984056C0720646A48462D32A /* Pods_RoxChatKeyboard_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD7A412C6C26210AFAB878E /* Pods_RoxChatKeyboard_Example.framework */; };
 		CC0B7A9E2A209C4D001805E6 /* WMKeyboardNotificationsObserverTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0B7A9D2A209C4D001805E6 /* WMKeyboardNotificationsObserverTest.swift */; };
 		CC0B7AA02A20A5A5001805E6 /* WMKeyboardNotificationsObserverMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0B7A9F2A20A5A5001805E6 /* WMKeyboardNotificationsObserverMock.swift */; };
 		CC0B7AA22A20A90C001805E6 /* WMKeyboardNotificationsObserverContainerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0B7AA12A20A90C001805E6 /* WMKeyboardNotificationsObserverContainerTest.swift */; };
@@ -53,14 +53,15 @@
 
 /* Begin PBXFileReference section */
 		1A409BFE18D39168026CBA09 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		381634CEFB6278068A48C683 /* Pods-RoxChatKeyboard_UNIT_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoxChatKeyboard_UNIT_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RoxChatKeyboard_UNIT_Tests/Pods-RoxChatKeyboard_UNIT_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		383DC92BC109DABAF0C6A604 /* Pods_RoxChatKeyboard_Example_RoxChatKeyboard_UI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoxChatKeyboard_Example_RoxChatKeyboard_UI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51EC1478BB07969EFABA623B /* Pods-RoxChatKeyboard_UNIT_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoxChatKeyboard_UNIT_Tests.release.xcconfig"; path = "Target Support Files/Pods-RoxChatKeyboard_UNIT_Tests/Pods-RoxChatKeyboard_UNIT_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		53D00D12FF4D3FBBF0F602D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* RoxChatKeyboard_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoxChatKeyboard_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACE51AFB9204008FA782 /* RoxChatKeyboard_UNIT_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoxChatKeyboard_UNIT_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69B36D77B5D7FD046597EC4D /* Pods_RoxChatKeyboard_Example_RoxChatKeyboard_UI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoxChatKeyboard_Example_RoxChatKeyboard_UI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F55B531CE6DFFAD45C53AB2 /* Pods_RoxChatKeyboard_UNIT_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoxChatKeyboard_UNIT_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		89BACCE92BB378B88CEA226C /* Pods-RoxChatKeyboard_UNIT_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoxChatKeyboard_UNIT_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RoxChatKeyboard_UNIT_Tests/Pods-RoxChatKeyboard_UNIT_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8E36D56B76D69C932ED065D6 /* Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests.release.xcconfig"; path = "Target Support Files/Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests/Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7AD7A412C6C26210AFAB878E /* Pods_RoxChatKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoxChatKeyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F3C10ACA9741F5851183DD /* Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests/Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		90D5FDF32B0A91A700A14597 /* WMKeyboardNotificationsObserverMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMKeyboardNotificationsObserverMock.swift; sourceTree = "<group>"; };
 		90D5FDF42B0A91A700A14597 /* WMLoggerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMLoggerMock.swift; sourceTree = "<group>"; };
 		90D5FDF52B0A91A700A14597 /* WMKeyboardRepresentableMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMKeyboardRepresentableMock.swift; sourceTree = "<group>"; };
@@ -83,8 +84,9 @@
 		90D5FE102B0A91A700A14597 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90D5FE272B0A9B9800A14597 /* RoxChatKeyboard.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = RoxChatKeyboard.podspec; path = ../RoxChatKeyboard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		90D5FE2B2B0A9C3F00A14597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9F2A7D64BE9AC625AAF700FD /* Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests/Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B8F4E1C084FE1F59978850C3 /* Pods-RoxChatKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoxChatKeyboard_Example.release.xcconfig"; path = "Target Support Files/Pods-RoxChatKeyboard_Example/Pods-RoxChatKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
+		92190A9C75376D56609FCC64 /* Pods-RoxChatKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoxChatKeyboard_Example.debug.xcconfig"; path = "Target Support Files/Pods-RoxChatKeyboard_Example/Pods-RoxChatKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9CDD32437037B14E52F306F9 /* Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests.release.xcconfig"; path = "Target Support Files/Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests/Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A4B03B7FAE887B48A0B61D0B /* Pods-RoxChatKeyboard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoxChatKeyboard_Example.release.xcconfig"; path = "Target Support Files/Pods-RoxChatKeyboard_Example/Pods-RoxChatKeyboard_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CC0B7A9D2A209C4D001805E6 /* WMKeyboardNotificationsObserverTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMKeyboardNotificationsObserverTest.swift; sourceTree = "<group>"; };
 		CC0B7A9F2A20A5A5001805E6 /* WMKeyboardNotificationsObserverMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMKeyboardNotificationsObserverMock.swift; sourceTree = "<group>"; };
 		CC0B7AA12A20A90C001805E6 /* WMKeyboardNotificationsObserverContainerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMKeyboardNotificationsObserverContainerTest.swift; sourceTree = "<group>"; };
@@ -97,9 +99,7 @@
 		CCB3BC072A1E25D300327907 /* WMKeyboardRepresentableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMKeyboardRepresentableTest.swift; sourceTree = "<group>"; };
 		CCDDD46C2A29DD9500B79473 /* WMKeyboardLoggerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMKeyboardLoggerTests.swift; sourceTree = "<group>"; };
 		CCDDD46E2A29E01900B79473 /* WMLoggerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WMLoggerMock.swift; sourceTree = "<group>"; };
-		CF468AC8451CBA3A5CB7228B /* Pods-RoxChatKeyboard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoxChatKeyboard_Example.debug.xcconfig"; path = "Target Support Files/Pods-RoxChatKeyboard_Example/Pods-RoxChatKeyboard_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E1E6C0C91BD261053B49EB3E /* Pods-RoxChatKeyboard_UNIT_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoxChatKeyboard_UNIT_Tests.release.xcconfig"; path = "Target Support Files/Pods-RoxChatKeyboard_UNIT_Tests/Pods-RoxChatKeyboard_UNIT_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E6AAC532BA37F5D70A634303 /* Pods_RoxChatKeyboard_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoxChatKeyboard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43594279750BA55C32345B3 /* Pods_RoxChatKeyboard_UNIT_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoxChatKeyboard_UNIT_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D1882D8D1E087F4DC3F7D60 /* Pods_RoxChatKeyboard_Example.framework in Frameworks */,
+				984056C0720646A48462D32A /* Pods_RoxChatKeyboard_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C44F39F790E1A65A33957123 /* Pods_RoxChatKeyboard_UNIT_Tests.framework in Frameworks */,
+				458DDC51855918856E866D27 /* Pods_RoxChatKeyboard_UNIT_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,7 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17D3966DBD316170E1B553AE /* Pods_RoxChatKeyboard_Example_RoxChatKeyboard_UI_Tests.framework in Frameworks */,
+				2B5A6C410DEAFDE38169ED43 /* Pods_RoxChatKeyboard_Example_RoxChatKeyboard_UI_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,12 +133,12 @@
 		28905D0A036C328020321347 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				CF468AC8451CBA3A5CB7228B /* Pods-RoxChatKeyboard_Example.debug.xcconfig */,
-				B8F4E1C084FE1F59978850C3 /* Pods-RoxChatKeyboard_Example.release.xcconfig */,
-				9F2A7D64BE9AC625AAF700FD /* Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests.debug.xcconfig */,
-				8E36D56B76D69C932ED065D6 /* Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests.release.xcconfig */,
-				89BACCE92BB378B88CEA226C /* Pods-RoxChatKeyboard_UNIT_Tests.debug.xcconfig */,
-				E1E6C0C91BD261053B49EB3E /* Pods-RoxChatKeyboard_UNIT_Tests.release.xcconfig */,
+				92190A9C75376D56609FCC64 /* Pods-RoxChatKeyboard_Example.debug.xcconfig */,
+				A4B03B7FAE887B48A0B61D0B /* Pods-RoxChatKeyboard_Example.release.xcconfig */,
+				84F3C10ACA9741F5851183DD /* Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests.debug.xcconfig */,
+				9CDD32437037B14E52F306F9 /* Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests.release.xcconfig */,
+				381634CEFB6278068A48C683 /* Pods-RoxChatKeyboard_UNIT_Tests.debug.xcconfig */,
+				51EC1478BB07969EFABA623B /* Pods-RoxChatKeyboard_UNIT_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -152,7 +152,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				28905D0A036C328020321347 /* Pods */,
-				9E88F3928359BC6602EE33E4 /* Frameworks */,
+				C1BC011C411076B1C0CC1D1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -295,12 +295,12 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		9E88F3928359BC6602EE33E4 /* Frameworks */ = {
+		C1BC011C411076B1C0CC1D1C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E6AAC532BA37F5D70A634303 /* Pods_RoxChatKeyboard_Example.framework */,
-				69B36D77B5D7FD046597EC4D /* Pods_RoxChatKeyboard_Example_RoxChatKeyboard_UI_Tests.framework */,
-				7F55B531CE6DFFAD45C53AB2 /* Pods_RoxChatKeyboard_UNIT_Tests.framework */,
+				7AD7A412C6C26210AFAB878E /* Pods_RoxChatKeyboard_Example.framework */,
+				383DC92BC109DABAF0C6A604 /* Pods_RoxChatKeyboard_Example_RoxChatKeyboard_UI_Tests.framework */,
+				D43594279750BA55C32345B3 /* Pods_RoxChatKeyboard_UNIT_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -351,11 +351,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "RoxChatKeyboard_Example" */;
 			buildPhases = (
-				E2BEC698306A369591847426 /* [CP] Check Pods Manifest.lock */,
+				6A19B71C4F8CFE7BB6C4B52E /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				A7DB01F7D315A23E9365A4F1 /* [CP] Embed Pods Frameworks */,
+				2E5469986A5B1A1697ED8845 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -370,7 +370,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "RoxChatKeyboard_UNIT_Tests" */;
 			buildPhases = (
-				D202E9CC418A0F25CF3F3F3A /* [CP] Check Pods Manifest.lock */,
+				CCB618D660D42A99BCB99332 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -389,11 +389,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC6778892A24A059004E416B /* Build configuration list for PBXNativeTarget "RoxChatKeyboard_UI_Tests" */;
 			buildPhases = (
-				ACF6A582C901ED5845531263 /* [CP] Check Pods Manifest.lock */,
+				55750C469824CF621DF71EF5 /* [CP] Check Pods Manifest.lock */,
 				CC67787D2A24A059004E416B /* Sources */,
 				CC67787E2A24A059004E416B /* Frameworks */,
 				CC67787F2A24A059004E416B /* Resources */,
-				51CB4CB0C5B049300085B4F7 /* [CP] Embed Pods Frameworks */,
+				92136B7FB5D84F04BAEEAC83 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -480,24 +480,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		51CB4CB0C5B049300085B4F7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests/Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests/Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests/Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A7DB01F7D315A23E9365A4F1 /* [CP] Embed Pods Frameworks */ = {
+		2E5469986A5B1A1697ED8845 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -514,7 +497,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RoxChatKeyboard_Example/Pods-RoxChatKeyboard_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ACF6A582C901ED5845531263 /* [CP] Check Pods Manifest.lock */ = {
+		55750C469824CF621DF71EF5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -536,29 +519,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D202E9CC418A0F25CF3F3F3A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RoxChatKeyboard_UNIT_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E2BEC698306A369591847426 /* [CP] Check Pods Manifest.lock */ = {
+		6A19B71C4F8CFE7BB6C4B52E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -574,6 +535,45 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-RoxChatKeyboard_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92136B7FB5D84F04BAEEAC83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests/Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests/Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests/Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCB618D660D42A99BCB99332 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoxChatKeyboard_UNIT_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -754,7 +754,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF468AC8451CBA3A5CB7228B /* Pods-RoxChatKeyboard_Example.debug.xcconfig */;
+			baseConfigurationReference = 92190A9C75376D56609FCC64 /* Pods-RoxChatKeyboard_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NHV62264UD;
@@ -778,7 +778,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8F4E1C084FE1F59978850C3 /* Pods-RoxChatKeyboard_Example.release.xcconfig */;
+			baseConfigurationReference = A4B03B7FAE887B48A0B61D0B /* Pods-RoxChatKeyboard_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NHV62264UD;
@@ -802,7 +802,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89BACCE92BB378B88CEA226C /* Pods-RoxChatKeyboard_UNIT_Tests.debug.xcconfig */;
+			baseConfigurationReference = 381634CEFB6278068A48C683 /* Pods-RoxChatKeyboard_UNIT_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = NHV62264UD;
@@ -835,7 +835,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1E6C0C91BD261053B49EB3E /* Pods-RoxChatKeyboard_UNIT_Tests.release.xcconfig */;
+			baseConfigurationReference = 51EC1478BB07969EFABA623B /* Pods-RoxChatKeyboard_UNIT_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = NHV62264UD;
@@ -864,7 +864,7 @@
 		};
 		CC67788A2A24A059004E416B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F2A7D64BE9AC625AAF700FD /* Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests.debug.xcconfig */;
+			baseConfigurationReference = 84F3C10ACA9741F5851183DD /* Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -901,7 +901,7 @@
 		};
 		CC67788B2A24A059004E416B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E36D56B76D69C932ED065D6 /* Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests.release.xcconfig */;
+			baseConfigurationReference = 9CDD32437037B14E52F306F9 /* Pods-RoxChatKeyboard_Example-RoxChatKeyboard_UI_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
