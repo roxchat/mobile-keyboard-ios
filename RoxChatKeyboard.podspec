@@ -12,7 +12,7 @@ TODO: Add long description of the pod here.
   s.author           = { 'Rox.Chat' => 'info@rox.chat' }
   s.source           = { :git => 'https://github.com/roxchat/mobile-keyboard-ios.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '12.0'
   s.source_files = 'RoxChatKeyboard/**/*'
   
 end
