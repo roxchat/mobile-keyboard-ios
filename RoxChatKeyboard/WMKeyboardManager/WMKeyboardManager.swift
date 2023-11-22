@@ -24,6 +24,7 @@
 //
 
 import Foundation
+import UIKit
 
 /**
     A manager class for handling keyboard-related events and actions.

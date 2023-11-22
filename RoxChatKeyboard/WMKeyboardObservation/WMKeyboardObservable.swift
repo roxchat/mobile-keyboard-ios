@@ -24,6 +24,7 @@
 //
 
 import Foundation
+import UIKit
 
 /**
 The WMKeyboardObservable protocol defines the interface for objects that need to observe keyboard notifications.
